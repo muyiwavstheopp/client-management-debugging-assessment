@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl.exe -e bash -lc \"which node npm; node --version 2>/dev/null; npm --version 2>/dev/null; echo EXIT=\\\\$?\")"
+    ]
+  }
+}
